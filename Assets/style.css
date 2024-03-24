@@ -9,6 +9,8 @@ header {
     justify-content: space-between;
     padding: 1%;
     background-color: darkgreen;
+    border-bottom: solid gold;
+    border-width: 5px;
     align-items: center;
 }
 
@@ -34,7 +36,10 @@ nav a:hover {
 }
 
 main {
-    display: flex;
+   /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     flex: 1 1 0;
     max-width: 95%;
     margin: 2% auto;
@@ -48,11 +53,34 @@ main p {
     color: #000;
 }
 
+.contact {
+    padding: 2%; 
+    background-color: goldenrod;
+    display: inline-block;
+}
+
+#name {
+    color: #000;
+}
+
+#email {
+    color: #000;
+}
+
+label {
+    font-family: sans-serif;
+}
+
 footer {
     display: flex;
     justify-content: center;
     border-bottom: solid #000;
-    border-width: 10px;
+    border-width: 5px;
+    padding: 1%;
     background-color: darkgreen;
     color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
 }

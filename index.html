@@ -4,7 +4,7 @@
     <head>
         <title>W1 Mini Project</title>
             <meta charset = "UTF-8" />
-            <meta name = "viewport" content = "width = device - width, initial-scale = 1" />
+            <meta name = "viewport" content = "width=device-width, initial-scale = 1" />
         <link rel="stylesheet" type="text/css" href="./Assets/style.css" />
         <link rel="stylesheet" type="text/css" href="./Assets/reset.css" />
     </head>
@@ -31,16 +31,20 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, exercitationem.</p>
         </section>
 
-        <section>
+        <section class="contact">
             <h2>Contact Me</h2>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <label for="name">Name</label> 
+            <input type="text" id="name" name="name" required minlength="6" maxlength="10" size="20" />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="name" required minlength="6" maxlength="10" size="20"/>
+            <button>Send</button>
         </section>
     </main>
 
     <footer>
       <ul>
         <li>
-            <a href=""></a>
+            <p>My landing page!</p>
         </li>
       </ul>
 
